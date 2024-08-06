@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Poppins:wght@300&family=Roboto:wght@100;300&family=Satisfy&display=swap"
+    rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <title>Medical Camp</title>
+  <link rel="shortcut icon" href="assets/img/logo.png" />
+</head>
+
+<body>
+  <!-- NAVBAR SECTION -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-green shadow" id="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/img/logo.png" alt="" class="w-20" />
+        <img src="assets\img\MedicalCamp.jpg" alt="" class="w-20" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+        <ul class="navbar-nav me-auto fs-5">
+          <li class="nav-item px-2">
+            <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link text-white" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link text-white" href="service.html">Services</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link text-white" href="events.html">Events</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link text-white" href="register.html">Join Us</a>
+          </li>
+          <li class="nav-item px-2 ">
+            <a class="nav-link text-white" href="contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item px-2 ">
+            <a class="nav-link text-white" href="Login/AdminLogin.php">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Hero Section-->
+  <div class="overlay">
+    <video autoplay muted loop class="hero-video" src="assets/video/hospital.mp4"></video>
+  </div>
+
+  <div class="hero-container">
+    <div class="hero-text-container">
+      <h2 class="col-lg-7 col-md-10 text-white">Welcome to free health camp of<h2></h2>
+        <h1 class="text-white"> Alva's Education Foundation</h1>
+        <p class="col-lg-8 col-md-10 text-white pt-2">
+          Bringing Healthcare to Your Doorstep: Join our Medical Camp for Free Check-ups, Vaccinations, and Health
+          Education
+        </p>
+        <a class="mt-3 btn btn_style p-2 px-5 " href="#about_section">Get Started</a>
+    </div>
+
+    <div class="hero-slider-section d-none d-lg-block">
+      <div class="hero-slider-highlights">
+        <h2 class="text-white text-start">Upcoming Events</h2>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <h3 class="text-white">Diabetes camp</h3>
+              <ul class="text-white text-start">
+                <li>Location : Mijar</li>
+                <li>Date : 10-08-2023</li>
+                <li>Time : 9.30 AM</li>
+              </ul>
+              <a class=" btn btn_style px-5 mt-2" href="events.html">Know More</a>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <h3 class="text-white">Eye  camp</h3>
+              <ul class="text-white text-start">
+                <li>Location : Kudupu</li>
+                <li>Date : 12-08-2023</li>
+                <li>Time : 9.30 AM</li>
+              </ul>
+              <a class=" btn btn_style px-5 mt-2" href="events.html">Know More</a>
+            </div>
+          </div>
+        </div>
+        <h2 class="text-white text-start pt-5">Ongoing Events</h2>
+        <div id="carouselExampleFade1" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active " data-bs-interval="3000">
+              <h3 class="text-white">Homeopathy camp</h3>
+              <ul class="text-white text-start">
+                <li>Location : Puttur</li>
+                <li>Date : 10-08-2023</li>
+                <li>Time : 11.30 AM</li>
+              </ul>
+              <a class=" btn btn_style px-5 mt-2" href="events.html">Know More</a>
+            </div>
+            <div class="carousel-item " data-bs-interval="3000">
+              <h3 class="text-white">Yoga camp</h3>
+              <ul class="text-white text-start">
+                <li>Location : Karkala</li>
+                <li>Date : 15-08-2023</li>
+                <li>Time : 9.30 AM</li>
+              </ul>
+              <a class=" btn btn_style px-5 mt-2" href="events.html">Know More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About section -->
+  <section id="about_section">
+    <div class="container pt-5">
+      <h2>About Us</h2>
+      <p>At Alva’s Education Foundation Medical Camps, our mission is to provide accessible and comprehensive healthcare
+        services to individuals in need. We believe that healthcare is a fundamental right and are committed to serving
+        communities that may have limited access to medical resources.</p>
+      <div class="row pt-2">
+        <div class="col-lg-6 my-auto">
+          <img src="assets/img/medical.jpeg" alt="About the Camp" class="w-100 rounded" />
+        </div>
+        <div class="col-lg-6 my-auto pt-3">
+          <p class="justify">Established in 1998, Alva’s Education Foundation Medical Camps has been a trusted
+            healthcare provider, organizing and conducting medical camps in various locations. Our dedicated team of
+            healthcare professionals and volunteers work tirelessly to make a positive impact on the lives of those we
+            serve.
+            The camp often conducted in areas where medical facilities may be limited or inaccessible to the local
+            population.
+            The camp typically involves collaboration between healthcare providers, community organizations, and
+            volunteers.
+
+          </p>
+          <p class="justify">We believe that everyone deserves access to healthcare services, regardless of their
+            socio-economic background or geographic location. Through our medical camps, we aim to make a difference in
+            the lives of individuals and communities, one camp at a time.
+            Thank you for visiting our About Us page. We invite you to join us in our mission to create a healthier
+            future for all.
+
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- History section -->
+  <section>
+    <div class="container pt-5">
+      <h2>Our Objectives:</h2>
+      <div class="row pt-2">
+        <div class="col-lg-6 my-auto">
+          <p class="justify">1. Accessible Healthcare: We strive to bridge the gap in healthcare by bringing medical
+            services directly to underserved communities. By setting up temporary clinics, we ensure that individuals
+            can receive the care they need without facing barriers such as distance, transportation, or financial
+            limitations.
+            <br> 2. Preventive Healthcare: We strongly believe that prevention is better than cure. Alongside providing
+            medical treatment, we focus on promoting health education and preventive measures. Through informative
+            workshops and discussions, we empower individuals to make informed decisions about their well-being and take
+            proactive steps towards leading healthier lives.
+            <br> 3. Screening and Diagnosis: Early detection of diseases is crucial for effective treatment. Our medical
+            camps offer a range of screenings and diagnostic services, including blood pressure checks, diabetes
+            screenings, vision and hearing tests, and general health check-ups. These screenings enable us to identify
+            health concerns at an early stage and provide appropriate referrals and follow-up care.
+            <br> 4. Treatment and Medication: In addition to preventive services, we offer treatment for common ailments
+            and provide necessary medications to patients. Our medical team includes doctors, nurses, and pharmacists
+            who ensure that individuals receive appropriate medical care during the camp.
+            <br> 5. Collaboration and Partnerships: We understand the importance of collaboration in delivering quality
+            healthcare. We actively seek partnerships with local healthcare organizations, NGOs, and government agencies
+            to maximize our impact and reach a wider population. By joining forces, we can leverage resources and
+            expertise to provide comprehensive care to those in need.
+
+
+          </p>
+
+        </div>
+        <div class="col-lg-6 my-auto">
+          <img src="assets/img/medical2.jpeg" alt="About the Camp" class="w-100 rounded" />
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- vision mission section -->
+  <section class="mt-5 px-2 pb-5">
+    <div class="row pt-5">
+      <div class="col-lg-4 mb-2 my-auto">
+        <div class="image-container ">
+          <img src="assets/img/about.jpeg" class="w-100 rounded-circle img-vision" />
+          <div class="after text-center px-5 my-auto">
+            <h3 class="fw-bold">Our Vision</h3>
+            <p class="fw-bold">
+              Our vision
+              To create a healthier and more equitable future, where every individual, regardless of their
+              socio-economic background or geographic location, has access to quality healthcare services. We envision a
+              world where preventive care is prioritized, diseases are detected early, and compassionate healthcare is
+              available to all.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-2 my-auto">
+        <div class="image-container ">
+          <img src="assets/img/about.jpeg" class="w-100 rounded-circle img-vision" />
+          <div class="after text-center px-5 my-auto">
+            <h3 class="fw-bold">Our Mission</h3>
+            <p class="fw-bold">
+              To provide accessible healthcare, promote prevention, offer screenings and diagnosis, and provide
+              treatment and medication. We aim to bridge the gap in healthcare, empower individuals, and make a positive
+              impact on the well-being of underserved communities.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-2 my-auto">
+        <div class="image-container ">
+          <img src="assets/img/history.webp" class="w-100 rounded-circle img-vision" />
+          <div class="after text-center px-5 my-auto">
+            <h3 class="fw-bold">Who Are We</h3>
+            <p class="fw-bold">
+              We are a dedicated team of healthcare professionals and volunteers, committed to providing accessible and
+              comprehensive healthcare services through medical camps. Our mission is to make a positive impact by
+              bringing quality care to underserved communities, promoting prevention, and empowering individuals to lead
+              healthier lives.
+
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Event section-->
+  <section class="mt-5 pb-5">
+    <div class="container">
+      <h2 class="text-center">Services</h2>
+      <p class="text-center">This Medical camp serves various purposes that includes:</p>
+
+      <div class="row pt-3">
+        <div class="col-lg-6">
+          <div class="border rounded p-3 text-center service_card mb-4">
+            <p class="fw-bold fs-5">Health screening</p>
+            1.Health screening: Medical professionals conduct health check-ups and screenings to identify potential
+            health issues such as diabetes, hypertension, and other common ailments.
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="border rounded p-3 text-center service_card mb-4">
+            <p class="fw-bold fs-5">Health education</p>
+            2. Health education: Medical camps offer educational sessions and workshops to raise awareness about various
+            health topics, including hygiene, nutrition, family planning, and disease prevention.
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="border rounded p-3 text-center service_card mb-4">
+            <p class="fw-bold fs-5">Immunizations</p>
+            3. Immunizations: Vaccination campaigns are often an essential part of medical camps, especially in areas
+            with low immunization coverage.
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="border rounded p-3 text-center service_card mb-4">
+            <p class="fw-bold fs-5">Treatment and referrals</p>
+            4. Treatment and referrals: Depending on the resources available, medical camps may provide basic treatments
+            for common ailments and refer patients to higher-level medical facilities for further evaluation and
+            specialized care.
+          </div>
+
+        </div>
+      </div>
+
+      <div class="row pt-5">
+        <div class="col-lg-6 mb-2 px-3">
+          <a href="events.html">
+            <div class="item overlay ">
+              <img class="thumbnail-vid rounded" src="assets/img/camps.jpeg" alt="" />
+              <div class="service-over-text text-center">
+                <h3>Events</h3>
+                <p>Health for All: Empowering Communities Through Medical Camps!</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-6 mb-2 px-3">
+          <a href="register.html">
+            <div class="item overlay">
+              <img class="thumbnail-vid rounded" src="assets/img/volunteer.jpeg" alt="" />
+              <div class="service-over-text text-center">
+                <h3>Join Us</h3>
+                <p>Bringing Healthcare to Your Doorstep: Join our Medical Camp for Free Check-ups, Vaccinations, and
+                  Health Education</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Counter section -->
+  <section class="pt-5 pb-5">
+    <div class="container px-5">
+      <h2 class="text-center">Impact</h2>
+      <p class="text-center">Our medical camp creates a lasting impact by improving access to healthcare, promoting
+        prevention, and empowering communities to lead healthier lives. </p>
+      <div class="row pt-3">
+        <div class="col-lg-4 col-md-6 text-center">
+          <img src="assets/img/emergency.png" alt="" class="w-20 border border-2 rounded-circle p-1">
+          <p>Health Camps Conducted</p>
+          <h1 id="camps-count" class="fs-10">
+            </h3>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center">
+          <img src="assets/img/hospital-bed.png" alt="" class="w-20 border border-2 rounded-circle p-1">
+          <p>Patients Have Been Diagnosed And Treated</p>
+          <h1 id="patients-count" class="fs-10">
+            </h3>
+        </div>
+        <div class="col-lg-4 col-md-12 text-center">
+          <img src="assets/img/hospital.png" alt="" class="w-20 border border-2 rounded-circle p-1">
+          <p>Locations</p>
+          <h1 id="locations-count" class="fs-10">
+            </h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials section -->
+  <section class="pt-5 pb-5 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-title">
+            <p>-- Testimonials --</p>
+            <h2>Happy Patients</h2>
+
+            <div class="section-borders">
+              <span></span>
+              <span class="black-border"></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="owl-carousel client-testimonial-carousel">
+            <div class="single-testimonial-item">
+              <p class="justify">1. I'm incredibly grateful for the exceptional care I received at homeopathy camp.
+                The doctors and staff were attentive, knowledgeable, and compassionate. Thank you for making my
+                experience a positive one!"</p>
+              <div class="d-flex">
+                <img src="assets/img/test1.png" alt="">
+                <div class="px-3 my-auto">
+                  <h3>Saraswathi</h3>
+                </div>
+              </div>
+            </div>
+            <div class="single-testimonial-item">
+              <p class="justify">2. "I can't thank the team at Diabetes camp enough for their dedication and
+                professionalism. They went above and beyond to ensure I received the necessary treatment and made me
+                feel comfortable throughout the process. Highly recommended!"</p>
+              <div class="d-flex">
+                <img src="assets/img/test3.png" alt="">
+                <div class="px-3 my-auto">
+                  <h3>Ramesh</h3>
+                </div>
+              </div>
+            </div>
+            <div class="single-testimonial-item">
+              <p class="justify">3. "Attending the medical camp was a life-changing experience for me. Not only did I
+                receive the medical attention I needed, but the support and encouragement from the staff were truly
+                uplifting. Thank you for restoring my faith in healthcare."</p>
+              <div class="d-flex">
+                <img src="assets/img/test4.png" alt="">
+                <div class="px-3 my-auto">
+                  <h3>Sharath</h3>
+                </div>
+              </div>
+            </div>
+            <div class="single-testimonial-item">
+              <p class="justify">4. "I was impressed by the efficiency and organization of the medical camp. The
+                screenings and check-ups were conducted smoothly, and the medical team was friendly and approachable. It
+                was a positive and valuable healthcare experience."
+              <div class="d-flex">
+                <img src="assets/img/test2.png" alt="">
+                <div class="px-3 my-auto">
+                  <h3>Geetha</h3>
+                </div>
+              </div>
+            </div>
+            <div class="single-testimonial-item">
+              <p class="justify">5. "The impact of the medical camp on our community cannot be overstated. Many
+                individuals, including myself, received essential healthcare services that we otherwise wouldn't have
+                access to. Thank you for bringing healthcare to our doorstep."
+              <div class="d-flex">
+                <img src="assets/img/test5.png" alt="">
+                <div class="px-3 my-auto">
+                  <h3>Subramanya Bhatt</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact us -->
+  <section class="pt-5 pb-5">
+    <div class="container">
+      <h2 class="text-center">Contact Us</h2>
+      <div class="row py-3 pb-4">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d539.8331127307496!2d74.9941525413911!3d13.068613046250062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba4aaec8dfc9f6f%3A0xaceae732368a07bd!2sAlva&#39;s%20Health%20Centre!5e0!3m2!1sen!2sin!4v1680111477279!5m2!1sen!2sin"
+          width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <h4>Get In Touch</h4>
+      <h2 class="form-headline">Let us Help You</h2>
+      <hr width="10%" class="hr">
+      <div class="row pt-3 justify-content-center">
+        <div class="col-lg-5">
+          <div class="border rounded p-2 text-center shadow mb-3">
+            <p class="fw-bold fs-5">Our Address:</p>
+            Alva's Health Centre, <br>Moodabidri, Karnataka,<br> India 
+
+        PIN – 574 227
+          </div>
+          <div class="border rounded p-3 text-center shadow mb-3">
+            <p class="fw-bold fs-5">Email Us:</p>
+             principal.aamc@gmail.com
+          </div>
+          <div class="border rounded p-3 text-center shadow mb-3">
+            <p class="fw-bold fs-5">Call Us:</p>
+            08258-250330 (Office)
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="border p-4 rounded shadow mt-2">
+            <form action="">
+              <div class="row mb-2">
+                <div class="col-lg-6 mb-2">
+                  <label for="exampleInputName" class="form-label">Full Name</label>
+                  <input type="text" class="form-control" id="exampleInputName" aria-describedby="emailHelp"
+                    placeholder="Name *">
+                </div>
+                <div class="col-lg-6">
+                  <label for="exampleInputphone" class="form-label">Phone Number</label>
+                  <input type="tel" class="form-control" id="exampleInputphone" aria-describedby="emailHelp"
+                    placeholder="Number *">
+                </div>
+              </div>
+              <div class="row mb-2">
+                <div class="col-lg-12">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Email *">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+              </div>
+              <div class="row mb-2">
+                <div class="col-lg-12">
+                  <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                    placeholder="Msg .."></textarea>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between pt-3">
+                <button type="button" class="btn px-5 text-white bg-green fw-bold ">Submit</button>
+                <button type="button" class="btn btn-secondary">Reset</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer section -->
+  <footer class="bg-dark text-white">
+
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="assets/img/logo.png" alt="" class="w-20" />
+          <p class="justify pt-3">At Alva’s Education Foundation Medical Camps, our mission is to provide accessible and
+            comprehensive healthcare services to individuals in need. We believe that healthcare is a fundamental right
+            and are committed to serving communities that may have limited access to medical resources.
+          </p>
+          <p><span class="fw-bold">Phone :</span>+919895055623</p>
+          <p><span class="fw-bold">Email :</span> aamc@alvas.org</p>
+        </div>
+        <div class="col-lg-2 "></div>
+        <div class="col-lg-4 ">
+          <p class="fw-bold fs-5">Useful Links</p>
+          <hr width="10%" class="hr ">
+          <a href="about.html" class="decoration text-white">
+            <p>About Us </p>
+          </a>
+          <a href="service.html" class="decoration text-white">
+            <p>Service </p>
+          </a>
+          <a href="events.html" class="decoration text-white">
+            <p>Events</p>
+          </a>
+          <a href="register.html" class="decoration text-white">
+            <p>Join Us</p>
+          </a>
+          <a href="contact.html" class="decoration text-white">
+            <p>Contact </p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-between container py-3 border-top">
+      <div id="footer-copyright-info">
+        &copy; Medical Camp 2022. All rights reserved.
+      </div>
+      <div id="footer-social-buttons">
+        <img src="https://img.icons8.com/ios-filled/25/999999/facebook--v1.png" />
+        <img src="https://img.icons8.com/ios-filled/25/999999/telegram-app.png" />
+        <img src="https://img.icons8.com/ios-filled/25/999999/pinterest--v1.png" />
+        <img src="https://img.icons8.com/ios-filled/25/999999/instagram--v1.png" />
+      </div>
+      </section>
+
+  </footer>
+  <!-- <script src="assets/js/main.js"></script>x -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+    integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script>
+
+    // impact section counter js
+    function counter(id, start, end, duration) {
+      let obj = document.getElementById(id),
+        current = start,
+        range = end - start,
+        increment = end > start ? 1 : -1,
+        step = Math.abs(Math.floor(duration / range)),
+        timer = setInterval(() => {
+          current += increment;
+          obj.textContent = current;
+          if (current == end) {
+            clearInterval(timer);
+          }
+        }, step);
+    }
+    document.addEventListener("DOMContentLoaded", () => {
+      counter("camps-count", 0, 1200, 1000);
+      counter("patients-count", 100, 150000, 1000);
+      counter("locations-count", 0, 25, 1000);
+
+
+    });
+
+    $(document).ready(function () {
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        dots: true,
+        autoplay: true,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1,
+            nav: true
+          },
+          600: {
+            items: 1,
+            nav: false
+          },
+          1000: {
+            items: 2,
+            nav: true,
+            loop: true
+          }
+        }
+      });
+    });
+
+  </script>
+</body>
+
+</html>
